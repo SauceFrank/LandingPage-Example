@@ -2,7 +2,6 @@ package com.landingpage;
 
 //Uncomment for Visual Testing
 //import com.saucelabs.visual.*;
-import com.saucelabs.visual.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
