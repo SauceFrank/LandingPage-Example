@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
+  <test parallel="methods" name="Surefire test(failed)">
+    <classes>
+      <class name="com.landingpage.LandingPageTest">
+        <methods>
+          <include name="LandingPageTitle" invocation-numbers="0 8 3 14 19 20 21 22 23 24 6 1 4 9 10 12"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.landingpage.LandingPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

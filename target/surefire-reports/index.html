@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 10 failed,  6 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)">LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)">LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , Android, Samsung Galaxy S22, public void com.landingpage.LandingPageTest.LandingPageTitl...)">LandingPageTitle(device, , , Android, Samsung Galaxy S22, public void com.landingpage.LandingPageTest.LandingPageTitl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)">LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)">LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)">LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)">LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)">LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, safari, latest, macOS 10.13, , public void com.landingpage.LandingPageTest.LandingPageTitle...)">LandingPageTitle(browser, safari, latest, macOS 10.13, , public void com.landingpage.LandingPageTest.LandingPageTitle...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, firefox, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitl...)">LandingPageTitle(browser, firefox, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)">LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)">LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)">LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)">LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)">LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)">LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , iOS, iPad 10.2, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.S...)">LandingPageTitle(device, , , iOS, iPad 10.2, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, chrome, latest, OS X 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)">LandingPageTitle(browser, chrome, latest, OS X 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)">LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)">LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)">LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)">LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , iOS, iPhone 14 Pro Max.*, public void com.landingpage.LandingPageTest.LandingPageTitle(j...)">LandingPageTitle(device, , , iOS, iPhone 14 Pro Max.*, public void com.landingpage.LandingPageTest.LandingPageTitle(j...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(browser, chrome, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle...)">LandingPageTitle(browser, chrome, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.landingpage.LandingPageTest" class="method navigator-link" hash-for-method="LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)">LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.landingpage.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)">
+                  </a> <!-- LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 18 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+	... 49 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)">
+                  </a> <!-- LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 18 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+	... 49 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , Android, Samsung Galaxy S22, public void com.landingpage.LandingPageTest.LandingPageTitl...)">
+                  </a> <!-- LandingPageTitle(device, , , Android, Samsung Galaxy S22, public void com.landingpage.LandingPageTest.LandingPageTitl...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , Android, Samsung Galaxy S22, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, getTitle {}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dc361180-3fe1-4967-bab8-c156a00cbc44
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)">
+                  </a> <!-- LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 18 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+	... 49 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)">
+                  </a> <!-- LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [060213c5ac554a61a191019a1ea9f061, get {url=https://ultimateqa.com/fake-landing-page}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: MicrosoftEdge, cssSelectorsEnabled: true, databaseEnabled: false, fedcm:accounts: true, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 139.0.3405.86 (057d25f32fab..., userDataDir: C:\Users\sauce\AppData\Loca...}, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 139.0.3405.86, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 060213c5ac554a61a191019a1ea...}
+Session ID: 060213c5ac554a61a191019a1ea9f061
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:170)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Cannot decode response content: 060213c5ac554a61a191019a1ea9f061
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:86)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 15 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 060213c5ac554a61a191019a1ea9f061
+	at org.openqa.selenium.json.Json.toType(Json.java:57)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	... 19 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: NUMBER. Last 0 characters read: 
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:307)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:229)
+	at org.openqa.selenium.json.MapCoercer.lambda$apply$1(MapCoercer.java:64)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:145)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:296)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:51)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:145)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)
+	at org.openqa.selenium.json.Json.toType(Json.java:71)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	... 21 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)">
+                  </a> <!-- LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 18 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+	... 49 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)">
+                  </a> <!-- LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [f031837119114669ba74f405ceccc6e4, getTitle {}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: C:\Users\sauce\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49798}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 139.0.7258.67, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f031837119114669ba74f405cec...}
+Session ID: f031837119114669ba74f405ceccc6e4
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Cannot decode response content: f031837119114669ba74f405ceccc6e4
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:86)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 17 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: f031837119114669ba74f405ceccc6e4
+	at org.openqa.selenium.json.Json.toType(Json.java:57)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	... 21 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:307)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:229)
+	at org.openqa.selenium.json.MapCoercer.lambda$apply$1(MapCoercer.java:64)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:145)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:296)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:51)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:145)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)
+	at org.openqa.selenium.json.Json.toType(Json.java:71)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	... 23 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)">
+                  </a> <!-- LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [45f90d1bd8d54e9a8ca568a6097874fa, getTitle {}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: MicrosoftEdge, cssSelectorsEnabled: true, databaseEnabled: false, fedcm:accounts: true, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 139.0.3405.86 (057d25f32fab..., userDataDir: C:\Users\sauce\AppData\Loca...}, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 139.0.3405.86, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 45f90d1bd8d54e9a8ca568a6097...}
+Session ID: 45f90d1bd8d54e9a8ca568a6097874fa
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:317)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Cannot decode response content: The test with session id 45f90d1bd8d54e9a8ca568a6097874fa has already finished, and can&apos;t receive further commands.
+For help, please check https://docs.saucelabs.com/dev/error-messages
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:86)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 17 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: The test with session id 45f90d1bd8d54e9a8ca568a6097874fa has already finished, and can&apos;t receive further commands.
+For help, please check https://docs.saucelabs.com/dev/error-messages
+	at org.openqa.selenium.json.Json.toType(Json.java:57)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	... 21 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: T. Last 1 characters read: T
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:126)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:141)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)
+	at org.openqa.selenium.json.Json.toType(Json.java:71)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	... 23 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, safari, latest, macOS 10.13, , public void com.landingpage.LandingPageTest.LandingPageTitle...)">
+                  </a> <!-- LandingPageTitle(browser, safari, latest, macOS 10.13, , public void com.landingpage.LandingPageTest.LandingPageTitle...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, safari, latest, macOS 10.13, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 18 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+	... 49 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, firefox, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitl...)">
+                  </a> <!-- LandingPageTitle(browser, firefox, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitl...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, firefox, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)
+	at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+	at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+	at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+	at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+	at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 18 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+	... 49 more
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.landingpage.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)">
+                  </a> <!-- LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, executeScript {script=sauce:job-result=false, args=[]}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.landingpage.LandingPageTest.tearDown(LandingPageTest.java:141)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)">
+                  </a> <!-- LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, executeScript {script=sauce:job-result=false, args=[]}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.landingpage.LandingPageTest.tearDown(LandingPageTest.java:141)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)">
+                  </a> <!-- LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, executeScript {script=sauce:job-result=false, args=[]}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.landingpage.LandingPageTest.tearDown(LandingPageTest.java:141)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)">
+                  </a> <!-- LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, executeScript {script=sauce:job-result=false, args=[]}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.landingpage.LandingPageTest.tearDown(LandingPageTest.java:141)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)">
+                  </a> <!-- LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, executeScript {script=sauce:job-result=false, args=[]}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.landingpage.LandingPageTest.tearDown(LandingPageTest.java:141)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)">
+                  </a> <!-- LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:422:6ae2:5394:1f7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, executeScript {script=sauce:job-result=false, args=[]}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.landingpage.LandingPageTest.tearDown(LandingPageTest.java:141)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.landingpage.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , iOS, iPad 10.2, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.S...)">
+                  </a> <!-- LandingPageTitle(device, , , iOS, iPad 10.2, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.S...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , iOS, iPad 10.2, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, chrome, latest, OS X 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)">
+                  </a> <!-- LandingPageTitle(browser, chrome, latest, OS X 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, chrome, latest, OS X 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)">
+                  </a> <!-- LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)">
+                  </a> <!-- LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)">
+                  </a> <!-- LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)">
+                  </a> <!-- LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , iOS, iPhone 14 Pro Max.*, public void com.landingpage.LandingPageTest.LandingPageTitle(j...)">
+                  </a> <!-- LandingPageTitle(device, , , iOS, iPhone 14 Pro Max.*, public void com.landingpage.LandingPageTest.LandingPageTitle(j...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , iOS, iPhone 14 Pro Max.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(browser, chrome, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle...)">
+                  </a> <!-- LandingPageTitle(browser, chrome, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(browser, chrome, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)">
+                  </a> <!-- LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...) -->
+                  <span class="method-name">LandingPageTitle</span>
+                  <span class="parameters">(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;100&quot; parallel=&quot;methods&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.landingpage.LandingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LandingPageTitle')
+data.setCell(0, 2, 'com.landingpage.LandingPageTest')
+data.setCell(0, 3, 180548);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LandingPageTitle')
+data.setCell(1, 2, 'com.landingpage.LandingPageTest')
+data.setCell(1, 3, 180547);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LandingPageTitle')
+data.setCell(2, 2, 'com.landingpage.LandingPageTest')
+data.setCell(2, 3, 180544);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LandingPageTitle')
+data.setCell(3, 2, 'com.landingpage.LandingPageTest')
+data.setCell(3, 3, 180543);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LandingPageTitle')
+data.setCell(4, 2, 'com.landingpage.LandingPageTest')
+data.setCell(4, 3, 180022);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LandingPageTitle')
+data.setCell(5, 2, 'com.landingpage.LandingPageTest')
+data.setCell(5, 3, 180008);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LandingPageTitle')
+data.setCell(6, 2, 'com.landingpage.LandingPageTest')
+data.setCell(6, 3, 18271);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LandingPageTitle')
+data.setCell(7, 2, 'com.landingpage.LandingPageTest')
+data.setCell(7, 3, 17402);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LandingPageTitle')
+data.setCell(8, 2, 'com.landingpage.LandingPageTest')
+data.setCell(8, 3, 17342);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LandingPageTitle')
+data.setCell(9, 2, 'com.landingpage.LandingPageTest')
+data.setCell(9, 3, 17328);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LandingPageTitle')
+data.setCell(10, 2, 'com.landingpage.LandingPageTest')
+data.setCell(10, 3, 16436);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LandingPageTitle')
+data.setCell(11, 2, 'com.landingpage.LandingPageTest')
+data.setCell(11, 3, 15555);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LandingPageTitle')
+data.setCell(12, 2, 'com.landingpage.LandingPageTest')
+data.setCell(12, 3, 11432);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LandingPageTitle')
+data.setCell(13, 2, 'com.landingpage.LandingPageTest')
+data.setCell(13, 3, 9478);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LandingPageTitle')
+data.setCell(14, 2, 'com.landingpage.LandingPageTest')
+data.setCell(14, 3, 8876);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'LandingPageTitle')
+data.setCell(15, 2, 'com.landingpage.LandingPageTest')
+data.setCell(15, 3, 7830);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'LandingPageTitle')
+data.setCell(16, 2, 'com.landingpage.LandingPageTest')
+data.setCell(16, 3, 7055);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'LandingPageTitle')
+data.setCell(17, 2, 'com.landingpage.LandingPageTest')
+data.setCell(17, 3, 6556);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'LandingPageTitle')
+data.setCell(18, 2, 'com.landingpage.LandingPageTest')
+data.setCell(18, 3, 6547);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'LandingPageTitle')
+data.setCell(19, 2, 'com.landingpage.LandingPageTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'LandingPageTitle')
+data.setCell(20, 2, 'com.landingpage.LandingPageTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'LandingPageTitle')
+data.setCell(21, 2, 'com.landingpage.LandingPageTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'LandingPageTitle')
+data.setCell(22, 2, 'com.landingpage.LandingPageTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'LandingPageTitle')
+data.setCell(23, 2, 'com.landingpage.LandingPageTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'LandingPageTitle')
+data.setCell(24, 2, 'com.landingpage.LandingPageTest')
+data.setCell(24, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.landingpage.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(browser, chrome, latest, Windows 11, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, firefox, 55.0, Windows 7, , public void com.landingpage.LandingPageTest.LandingPageTitle(ja...)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(browser, chrome, latest-1, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTitl...)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, MicrosoftEdge, latest, Windows 10, , public void com.landingpage.LandingPageTest.LandingPag...)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, firefox, latest-2, Windows 10, , public void com.landingpage.LandingPageTest.LandingPageTit...)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=SUCCESS method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">6558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=SUCCESS method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">6567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=SUCCESS method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">7065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=FAILURE method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">7878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=FAILURE method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">8888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, safari, latest, macOS 10.13, , public void com.landingpage.LandingPageTest.LandingPageTitle...)</span>
+                <span class="method-start">9567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(browser, chrome, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle...)</span>
+                <span class="method-start">9583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(browser, firefox, latest, macOS 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitl...)</span>
+                <span class="method-start">9584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(browser, chrome, latest, OS X 10.14, , public void com.landingpage.LandingPageTest.LandingPageTitle(...)</span>
+                <span class="method-start">10381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=FAILURE method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">11444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LandingPageTitle(device, , , Android, Samsung Galaxy S22, public void com.landingpage.LandingPageTest.LandingPageTitl...)</span>
+                <span class="method-start">11572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , iOS, iPhone 14 Pro Max.*, public void com.landingpage.LandingPageTest.LandingPageTitle(j...)</span>
+                <span class="method-start">11647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=SUCCESS method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">19859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , iOS, iPad 10.2, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">22427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=SUCCESS method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">25139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)</span>
+                <span class="method-start">27685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=SUCCESS method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">28975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=LandingPageTitle status=FAILURE method=LandingPageTest.LandingPageTitle(java.lang.S...)</span>
+                <span class="method-start">29844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)</span>
+                <span class="method-start">29878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)</span>
+                <span class="method-start">29945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)</span>
+                <span class="method-start">29946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , Android, Samsung.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.la...)</span>
+                <span class="method-start">29946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , iOS, iPhone.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.St...)</span>
+                <span class="method-start">29947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , Android, Google.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lan...)</span>
+                <span class="method-start">29947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LandingPageTitle(device, , , iOS, iPad.*, public void com.landingpage.LandingPageTest.LandingPageTitle(java.lang.Stri...)</span>
+                <span class="method-start">29948 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,182 @@
+-------------------------------------------------------------------------------
+Test set: com.landingpage.LandingPageTest
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 11, Errors: 0, Skipped: 22, Time elapsed: 189.956 sec <<< FAILURE! - in com.landingpage.LandingPageTest
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 7.867 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [f031837119114669ba74f405ceccc6e4, getTitle {}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 139.0.7258.66 (a62d32994769..., userDataDir: C:\Users\sauce\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49798}, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 139.0.7258.67, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f031837119114669ba74f405cec...}
+Session ID: f031837119114669ba74f405ceccc6e4
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+Caused by: java.lang.IllegalArgumentException: Cannot decode response content: f031837119114669ba74f405ceccc6e4
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: f031837119114669ba74f405ceccc6e4
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+Caused by: org.openqa.selenium.json.JsonException: 
+Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 8.879 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [060213c5ac554a61a191019a1ea9f061, get {url=https://ultimateqa.com/fake-landing-page}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: MicrosoftEdge, cssSelectorsEnabled: true, databaseEnabled: false, fedcm:accounts: true, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 139.0.3405.86 (057d25f32fab..., userDataDir: C:\Users\sauce\AppData\Loca...}, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 139.0.3405.86, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 060213c5ac554a61a191019a1ea...}
+Session ID: 060213c5ac554a61a191019a1ea9f061
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:170)
+Caused by: java.lang.IllegalArgumentException: Cannot decode response content: 060213c5ac554a61a191019a1ea9f061
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:170)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: 060213c5ac554a61a191019a1ea9f061
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:170)
+Caused by: org.openqa.selenium.json.JsonException: 
+Expected to read a START_MAP but instead have: NUMBER. Last 0 characters read: 
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:170)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 1.071 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [45f90d1bd8d54e9a8ca568a6097874fa, getTitle {}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: MicrosoftEdge, cssSelectorsEnabled: true, databaseEnabled: false, fedcm:accounts: true, handlesAlerts: true, hasMetadata: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 139.0.3405.86 (057d25f32fab..., userDataDir: C:\Users\sauce\AppData\Loca...}, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 139.0.3405.86, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 45f90d1bd8d54e9a8ca568a6097...}
+Session ID: 45f90d1bd8d54e9a8ca568a6097874fa
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+Caused by: java.lang.IllegalArgumentException: 
+Cannot decode response content: The test with session id 45f90d1bd8d54e9a8ca568a6097874fa has already finished, and can't receive further commands.
+For help, please check https://docs.saucelabs.com/dev/error-messages
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to parse: The test with session id 45f90d1bd8d54e9a8ca568a6097874fa has already finished, and can't receive further commands.
+For help, please check https://docs.saucelabs.com/dev/error-messages
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to determine type from: T. Last 1 characters read: T
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 2.158 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+A session is either terminated or not started
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, getTitle {}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dc361180-3fe1-4967-bab8-c156a00cbc44
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:171)
+
+tearDown(com.landingpage.LandingPageTest)  Time elapsed: 0.066 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown error has occurred
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [dc361180-3fe1-4967-bab8-c156a00cbc44, executeScript {script=sauce:job-result=false, args=[]}]
+Capabilities {adbHost: 172.20.0.83, adbPort: 17109, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, appiumData: {appiumVersion: 1.22.2, automationName: UiAutomator2}, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, databaseEnabled: false, desired: {adbHost: 172.20.0.83, adbPort: 17109, browserName: Chrome, chromeOptions: {w3c: true}, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3160, 3170]], custom:chromeOptions: {androidUseRunningApp: true}, deviceName: Samsung_Galaxy_S22_13_real_us, noReset: true, platformName: Android, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, suppressKillServer: true, systemPort: 21109, uiautomator2ServerInstallTimeout: 60000}, deviceApiLevel: 33, deviceContextId: 26a2b4f0-878c-41e5-9d33-e47..., deviceManufacturer: samsung, deviceModel: SM-S901U1, deviceName: RFCTC0ZEFVF, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: RFCTC0ZEFVF, javascriptEnabled: true, jobUuid: 626d9c4eb1b54e9e80af6e7e12b..., locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 13, remoteAdbHost: 172.20.0.83, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22309}, sauce:options: {accesskey: 70d8fea3-9242-4aea-ba5a-4f5..., name: LandingPageTitle, username: SauceFrank}, statBarHeight: 81, suppressKillServer: true, systemPort: 21109, takesScreenshot: true, testobject_device: Samsung_Galaxy_S22_13_real_us, testobject_device_name: Samsung Galaxy S22, testobject_device_session_id: 5c670e0b-6250-4761-9642-353..., testobject_test_report_api_url: https://api.us-west-1.sauce..., testobject_test_report_url: https://app.saucelabs.com/t..., testobject_user_id: SauceFrank, uiautomator2ServerInstallTimeout: 60000, usedCachedDevice: false, viewportRect: {height: 2034, left: 0, top: 81, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at com.landingpage.LandingPageTest.tearDown(LandingPageTest.java:141)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 150.621 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: java.util.concurrent.TimeoutException
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 150.621 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: java.util.concurrent.TimeoutException
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 150.621 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: java.util.concurrent.TimeoutException
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 150.622 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: java.util.concurrent.TimeoutException
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 159.642 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: java.util.concurrent.TimeoutException
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+
+LandingPageTitle(com.landingpage.LandingPageTest)  Time elapsed: 159.645 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:422:6ae2:5394:1f7%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '21.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+Caused by: java.util.concurrent.TimeoutException
+	at com.landingpage.LandingPageTest.createDriver(LandingPageTest.java:111)
+	at com.landingpage.LandingPageTest.LandingPageTitle(LandingPageTest.java:169)
+
