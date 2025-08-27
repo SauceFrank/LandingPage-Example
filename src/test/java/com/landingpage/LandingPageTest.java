@@ -100,8 +100,6 @@ public class LandingPageTest {
             capabilities.setCapability("browserName", browser);
             capabilities.setCapability("version", version);
             capabilities.setCapability("platform", os);
-//            capabilities.setCapability("extendedDebugging", true);
-//            capabilities.setCapability("capturePerformance", true);
         } else {
             capabilities.setCapability("platformName", os);
             capabilities.setCapability("deviceName", device);
@@ -117,7 +115,7 @@ public class LandingPageTest {
                 .withProject("Landing Page Example")
                 .withCaptureDom(true)
                 .build();*/
-        // EU
+        // Uncomment for running tests in the EU datacenter. Be sure to comment out US-West target
         // webDriver.set(new RemoteWebDriver(
         //         new URL("https://ondemand.eu-central-1.saucelabs.com/wd/hub"),
         //         capabilities));
