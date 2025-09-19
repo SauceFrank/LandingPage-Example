@@ -46,11 +46,6 @@ public class LandingPageTest {
                 new Object[]{"browser","chrome", "latest-1", "Windows 10",""},
                 new Object[]{"browser","MicrosoftEdge", "latest", "Windows 10",""},
                 new Object[]{"browser","firefox", "latest-2", "Windows 10",""},
-                new Object[]{"browser","chrome", "latest", "Windows 11",""},
-                new Object[]{"browser","firefox", "55.0", "Windows 7",""},
-                new Object[]{"browser","chrome", "latest-1", "Windows 10",""},
-                new Object[]{"browser","MicrosoftEdge", "latest", "Windows 10",""},
-                new Object[]{"browser","firefox", "latest-2", "Windows 10",""},
 
                 // Mac
                 new Object[]{"browser","safari", "latest", "macOS 10.13",""},
