@@ -43,7 +43,6 @@ public class LandingPageTest {
 //Select what to test on. Needs to be the same between baseline and regression
 //                // Windows
                 new Object[]{"browser","chrome", "latest", "Windows 11",""},
-                new Object[]{"browser","firefox", "55.0", "Windows 7",""},
                 new Object[]{"browser","chrome", "latest-1", "Windows 10",""},
                 new Object[]{"browser","MicrosoftEdge", "latest", "Windows 10",""},
                 new Object[]{"browser","firefox", "latest-2", "Windows 10",""},
@@ -91,7 +90,7 @@ public class LandingPageTest {
 //Change Sauce Connect Tunnel name to one provisioned in your environment
         capabilities.setCapability("username", sauce_username);
         capabilities.setCapability("accesskey", sauce_accesskey);
-//        capabilities.setCapability("tunnelIdentifier","MySCTunnel");
+        capabilities.setCapability("tunnelIdentifier","MySCTunnel");
         String jobName = methodName;
         capabilities.setCapability("name", jobName);
 
