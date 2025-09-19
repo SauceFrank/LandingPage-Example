@@ -55,7 +55,7 @@ public class LandingPageTest {
 
                 //Devices
                 new Object[]{"device","", "", "Android","Samsung Galaxy S22"},
-                new Object[]{"device","", "", "iOS", "iPhone 14 Pro Max.*"},
+                new Object[]{"device","", "", "iOS", "iPhone 14 Pro Max"},
                 new Object[]{"device","", "", "iOS", "iPad 10.2"},
         };
     }
