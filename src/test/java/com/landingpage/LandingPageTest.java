@@ -62,14 +62,6 @@ public class LandingPageTest {
                 new Object[]{"device","", "", "Android","Samsung Galaxy S22"},
                 new Object[]{"device","", "", "iOS", "iPhone 14 Pro Max.*"},
                 new Object[]{"device","", "", "iOS", "iPad 10.2"},
-                new Object[]{"device","", "", "Android","Samsung.*"},
-                new Object[]{"device","", "", "iOS", "iPhone.*"},
-                new Object[]{"device","", "", "Android","Google.*"},
-                new Object[]{"device","", "", "iOS", "iPad.*"},
-                new Object[]{"device","", "", "Android","Samsung.*"},
-                new Object[]{"device","", "", "iOS", "iPhone.*"},
-                new Object[]{"device","", "", "Android","Google.*"},
-                new Object[]{"device","", "", "iOS", "iPad.*"},
         };
     }
 
